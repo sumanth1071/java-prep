@@ -1,0 +1,26 @@
+MEMORY ALLOCATION:
+
+    Java uses 2 types of datastructres
+    1.Stack
+    2.Heap
+
+    1.Stack:
+    -It uses LIFO
+    -static memory allocation
+    -it exists till the object is used
+    -fast
+    -automatic memeory allocation and deallocation
+    -StackOverFlowError
+
+    2.Heap:
+    - <new> is used to allocate memory to objects
+    -contains 2 parts:
+        young space: used to allocate new objects
+        old space: contains previously used objects that still being used when young space is fulled
+    -dynamic memory allocation
+    -Garbage collector is used to deallocate memory 
+    -can be used to access any objects
+    -slower
+    -contains only instance variables
+    -less protective should sync along with code
+    -java.lang.OutOfMemoryError if heap is full
