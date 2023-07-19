@@ -1,4 +1,4 @@
- package phase1.problems.Nth_fibonnaci;
+package phase1.problems.Nth_fibonnaci;
 import java.util.Scanner;
 import java.io.*; 
 
