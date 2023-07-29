@@ -1,4 +1,4 @@
-# RULES OF JAVA PROGRAMMING
+# RULES OF JAVA PROGRAMMING 👾
 1. To convert datatypes of a variable both the 2 variable and the expression have to mentioned with that datatypes
 
 #### _SYNTAX_: 
@@ -40,7 +40,7 @@
 
 13. ternary operator: . 
 
-_SYNTAX_: 
+_Syntax_: 
 
     variable = expression1 ? expression2 : expression3
     if (Expression1) is true then (expression2) evaluated
@@ -66,18 +66,124 @@ _SYNTAX_:
 
 ## Math:
 19. ceil()
-
+####
     ceil("2.5")
     if value = 2.5 then
     it becomes 3
 
 20. floor()
-
+####
     floor(<2.5>)
     if value = 2.5 then
     it becomes 4
 
 
 ## methods:
-21. In method_overloading overloading can be performed by 
-changing parameters (or) changing datatype
+21. In method_overloading overloading can be performed by **changing parameters**:
+#### _Syntax:_
+    public class Solution
+        public static int add(int a ,int b) {
+            return a + b;
+        }
+        public static int add(int a ,int b ,int c) {
+            return a + b;
+        }
+        public static void main(String args[]) {
+            int twonum = Solution.add(10,30);
+            int threenum = Solution.add(10,30,40);
+            System.out.println(twonum)
+            System.out.println(threenum)
+        }
+22. In method_overloading overloading can be performed by **changing datatypes**:
+#### _Syntax:_
+    public class Solution
+        public static int add(int a ,int b) {
+            return a + b;
+        }
+        public static float add(double a ,double b) {
+            return a + b;
+        }
+        public static void main(String args[]) {
+            int twonum = Solution.add(10,30);
+            double threenum = Solution.add(10,30);
+            System.out.println(twonum)
+            System.out.println(threenum)
+        }
+## Array
+
+23. Creating array :
+#### _Syntax:_
+**array declaration -**
+
+    <datatype> <variable_name>
+    ex:
+    int arr[]
+
+**array creation -**
+    
+    arr = new int[20]
+
+**both declaration and creation of array can be done in a single statement -**
+    
+    int arr[] = new int[20]
+
+24. initializing array :
+
+**In single line**
+
+#### _Syntax :_
+
+    <datatype> <var_name>[] = {val1 , val2 ,....}
+    ex:
+    int arr[] = {1,2,3,4,5}
+
+**Using for loop**
+
+#### _Syntax :_
+
+    import java.util.*;
+    import java.io.*;
+
+    class Example {
+        public static void main (String args[]) {
+            int arr[] = new int[5];
+            Scanner Scan = new Scanner(System.in):
+            for(int i = 0; i<arr.length ; i++) {
+                arr[i] = Scan.nextInt();
+            }
+        }
+    }
+    output : 1 2 3 4 5
+
+**acessing array elements**
+
+    System.out.println(arr[0]);
+    System.out.println(arr[1]);
+    System.out.println(arr[4]);
+    output : 1 2 5
+
+**traversing array**
+
+    for(int i : arr) {
+        System.out.print(i);
+    }
+    output : 1 2 3 4 5
+
+**array storing**
+
+    int arr[] = new int[10]
+
+    here arr is the reference to the array not the name
+
+**resassigning the reference can be happened but its data type cannot be changed**
+
+    
+    int arr[] = new int[10]
+    int arr1[] = new int[20]
+
+    arr1 =  arr
+
+    now both arrays refer to the same array
+    now the space assigned for the arr[10] will be freed by the garabage collector
+    now that space can be used for future object allocation
+
