@@ -109,7 +109,7 @@ _Syntax_:
             System.out.println(twonum)
             System.out.println(threenum)
         }
-## Array
+## Arrays
 
 23. Creating array :
 #### _Syntax:_
@@ -187,3 +187,40 @@ _Syntax_:
     now the space assigned for the arr[10] will be freed by the garabage collector
     now that space can be used for future object allocation
 
+**character**
+
+    char ch[] = {a,b,c}
+    System.out.print(ch + " ")
+    output : a b c
+
+    but 
+
+    int arr[] = {1,2,3}
+    System.out.print(arr + " ")
+    output : <address of the array>
+
+    This happens due to unicode is already assigned to characters
+    and this is same for strings and floats also
+
+## 2-D arrays
+25. Declaring 2-D arrays
+
+_Syntax :_
+
+    <datatype> <var_name>[][] = new <datatype>[row][col]
+    ex:
+    int arr[][] = new int[3][3]
+
+26. Initializing 2-D arrays
+
+_Syntax :_
+
+    <datatype> <var_name>[][] = {{val1,val2,val3},{val1,val2,val3},{val1,val2,val3}}
+    ex:
+    int arr[][] = {
+        {1,2,3},
+        {4,5,6},
+        {7,8,9}}
+    . there are 3 rows and 3 columns
+    . the array should be filled in row wise
+    . left to right

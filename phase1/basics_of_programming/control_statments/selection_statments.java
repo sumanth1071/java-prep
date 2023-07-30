@@ -24,8 +24,8 @@ class if_else_if {
         else if(a == 50)
             System.out.println("a is 30");
         else
-            System.out.println("a is not present");    
-        }
+            System.out.println("a is not present");
+    }
 }
 
 class jump_statments {

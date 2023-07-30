@@ -12,6 +12,7 @@ public class increment_2 {
     public static void increment(int arr[]) {
         int arr1[] = {1,2,3,4,5};
         arr = arr1;
+        
         // here we assgined array to another array 
         // so the array in main wont be modified
 
