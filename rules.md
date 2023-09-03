@@ -175,6 +175,23 @@ _Syntax_:
 
     here arr is the reference to the array not the name
 
+**array methods**
+
+    arr.length : returns the length of the array
+    ex : arr.length = 10
+
+    arr.sort() : sorts the array in ascending order
+    ex : arr = {1,2,3,4,5}
+
+    arr.toString() : returns the string representation of the array
+
+    arr.clone() : returns the copy of the array
+
+    arr.equals(arr1) : returns true if both arrays are equal
+
+    arr.fill(val) : fills the array with the given value
+
+
 **resassigning the reference can be happened but its data type cannot be changed**
 
     
@@ -224,3 +241,41 @@ _Syntax :_
     . there are 3 rows and 3 columns
     . the array should be filled in row wise
     . left to right
+
+## Arraylist
+27. arraylist is a class in java.util package
+
+_Syntax :_
+    
+    <Arraylist> <var_name> = new <Arraylist>()
+    ex:
+    Arraylist arr = new Arraylist()
+    
+28. arraylist methods : To acess the arraylist we use the methods in the Arraylist class
+
+        . add() : adds the element to the arraylist
+        ex: arr.add(10)
+
+        . remove() : removes the element from the arraylist
+        ex: arr.remove(10)
+
+        . get() : gets the element from the arraylist
+        ex: arr.get(10)
+
+        . set() : sets the element to the arraylist
+        ex: arr.set(10,20)
+
+        . size() : returns the size of the arraylist
+        ex: arr.size()
+
+        . clear() : clears the arraylist
+        ex: arr.clear()
+
+        . contains() : checks whether the element is present in the arraylist
+        ex: arr.contains(10)
+
+        . isEmpty() : checks whether the arraylist is empty or not
+        ex: arr.isEmpty()
+
+        . indexOf() : returns the index of the element in the arraylist
+        ex: arr.indexOf(10)
