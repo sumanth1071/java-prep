@@ -75,7 +75,7 @@ _Syntax_:
 ####
     floor(<2.5>)
     if value = 2.5 then
-    it becomes 4
+    it becomes 2
 
 
 ## methods:

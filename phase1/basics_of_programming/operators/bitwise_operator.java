@@ -31,8 +31,7 @@ public class bitwise_operator {
         // right shift (>>)
         // binary of 7 is 0111
         // after right shift 01 = 1
-        System.out.println("a >> 2 = "+ (a>>1
-        ));
+        System.out.println("a >> 2 = "+ (a>>1));
 
         // unnsigned right shift
         // shifts the digits to right and fill the left with 0's
