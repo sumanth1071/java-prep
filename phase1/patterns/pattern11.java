@@ -19,6 +19,5 @@ public class pattern11 {
                 int n = sc.nextInt();
                 pattern(n);
             } 
-        }
-    
+        }   
 }

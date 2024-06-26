@@ -1,0 +1,623 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "pattern17",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern17",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern16",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern16",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern15",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern15",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern14",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern14",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "duplicate_element",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.duplicate_element",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "findCommonElementInThree",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.findCommonElementInThree",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "find_element",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.find_element",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "finding_last_index",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.finding_last_index",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "indexofelement",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.indexofelement",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "muiltidim",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.muiltidim",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pairofsums_in_array",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.pairofsums_in_array",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "reverse_array",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.reverse_array",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "rotate_array",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.rotate_array",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "rotate_arraylist",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.rotate_arraylist",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "sort012",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.sort012",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "sumof3arrays",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.sumof3arrays",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "sumofarrays",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.sumofarrays",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "two_sum",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.array_problems.two_sum",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "array_1",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.arrays_as_functions.array_1",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "array_return_usingfunction",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.arrays_as_functions.array_return_usingfunction",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "increment",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.arrays_as_functions.increment",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "increment_2",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.arrays_as_functions.increment_2",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "acess2_D_array",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.arrays_as_functions.two_D_arrays.acess2_D_array",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "create_array",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.arrays.create_array",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileLoop",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.DoWhileLoop",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "EnhancedForLoop",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.EnhancedForLoop",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "ForLoop",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.ForLoop",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "JavaWhileloop",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.JavaWhileloop",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Labeled_break_statemnets",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.Labeled_break_statemnets",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Return_statments",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.Return_statments",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "break_statemnets",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.break_statemnets",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "continue_labelled_statments",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.continue_labelled_statments",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "continue_statements_nested",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.continue_statements_nested",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "continue_statemnets",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.continue_statemnets",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "iteration_statments",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.control_statments.iteration_statments",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "TakingInputFromUserUsingScanners",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.input_output.TakingInputFromUserUsingScanners",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "io",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.input_output.io",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "LowerCaseString",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.LowerCaseString",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "MaxOfNum",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.MaxOfNum",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "MinOfNum",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.MinOfNum",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "UpperCaseString",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.UpperCaseString",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "hello_world",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.hello_world",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "lengthOfString",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.lengthOfString",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "method_overloading",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.method_overloading",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "squareroot",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.methods.squareroot",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Assignment_operators",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.Assignment_operators",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Logical_operators",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.Logical_operators",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.Solution",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "arith_operators",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.arith_operators",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "bitwise_operator",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.bitwise_operator",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "instance_of",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.instance_of",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "relational_operator",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.relational_operator",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "ternary_operator",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.ternary_operator",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "unary_operators$UnaryBitwiseOpeartor",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.unary_operators$UnaryBitwiseOpeartor",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "unary_operators$UnaryIncrementDecrementOperator",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.unary_operators$UnaryIncrementDecrementOperator",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "unary_operators$UnaryNotOperator",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.unary_operators$UnaryNotOperator",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "unary_operators$Unaryminusoperator",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.operators.unary_operators$Unaryminusoperator",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "variables",
+            "request": "launch",
+            "mainClass": "phase1.basics_of_programming.variables.variables",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "phase1.patterns.Pattern1",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "phase1.patterns.Pattern2",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern10",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern10",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern11",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern11",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern12",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern12",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern13",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern13",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern3",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern4",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern4",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern5",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern5",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern6",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern6",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern7",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern7",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern8",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern8",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "pattern9",
+            "request": "launch",
+            "mainClass": "phase1.patterns.pattern9",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "F_to_C",
+            "request": "launch",
+            "mainClass": "phase1.problems.F_to_C",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Nth_fibonnaci",
+            "request": "launch",
+            "mainClass": "phase1.problems.Nth_fibonnaci.Nth_fibonnaci",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Sum_of_even_odd",
+            "request": "launch",
+            "mainClass": "phase1.problems.Sum_of_even_odd",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "Sum_of_even_till_N",
+            "request": "launch",
+            "mainClass": "phase1.problems.Sum_of_even_till_N",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "age_name",
+            "request": "launch",
+            "mainClass": "phase1.problems.age_name",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "area_reactangle",
+            "request": "launch",
+            "mainClass": "phase1.problems.area_reactangle",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "biggest_number",
+            "request": "launch",
+            "mainClass": "phase1.problems.biggest_number",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "conversion",
+            "request": "launch",
+            "mainClass": "phase1.problems.conversion",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "phase1.problems.factorial",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "find_case",
+            "request": "launch",
+            "mainClass": "phase1.problems.find_case",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "guess1",
+            "request": "launch",
+            "mainClass": "phase1.problems.guess1",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "set_bits",
+            "request": "launch",
+            "mainClass": "phase1.problems.set_bits",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "simple_interest",
+            "request": "launch",
+            "mainClass": "phase1.problems.simple_interest",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "swap",
+            "request": "launch",
+            "mainClass": "phase1.problems.swap",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "total_prime",
+            "request": "launch",
+            "mainClass": "phase1.problems.total_prime",
+            "projectName": "java prep_e880f2bf"
+        },
+        {
+            "type": "java",
+            "name": "total_salary",
+            "request": "launch",
+            "mainClass": "phase1.problems.total_salary",
+            "projectName": "java prep_e880f2bf"
+        }
+    ]
+}
