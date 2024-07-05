@@ -1,4 +1,4 @@
-package phase1.patterns;
+
 import java.util.Scanner;
 public class pattern13 {
     public static void pattern(int N) {
