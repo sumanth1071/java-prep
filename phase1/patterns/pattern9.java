@@ -38,5 +38,6 @@ public class pattern9{
             pattern(n);
             patterntwo(n);
         }
+        sc.close();
     }
 }

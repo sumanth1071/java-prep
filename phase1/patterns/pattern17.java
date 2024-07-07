@@ -35,5 +35,6 @@ public class pattern17{
             int n = sc.nextInt();
             pattern(n);
         } 
+        sc.close();
     }  
 }

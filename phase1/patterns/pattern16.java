@@ -21,5 +21,6 @@ public class pattern16{
             int n = sc.nextInt();
             pattern(n);
         } 
+        sc.close();
     }
 }

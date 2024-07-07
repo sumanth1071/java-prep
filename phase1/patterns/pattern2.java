@@ -19,6 +19,7 @@ class Pattern2 {
             // what should be the pattern length
             Pattern(n);
         } 
+        sc.close();
     }
     
     

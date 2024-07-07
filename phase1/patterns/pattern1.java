@@ -16,10 +16,13 @@ class Pattern1 {
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
+        // code that uses the scanner object
+        
         int t = sc.nextInt();
         for( int i = 0;i<t;t++){
             int N = sc.nextInt();
             pattern(N);
         }
+        sc.close();
     }   
 }
