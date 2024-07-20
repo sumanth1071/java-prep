@@ -6,19 +6,26 @@ public class pattern17{
             for(int j = 0 ; j<N-i-1; j++){
                 System.out.print(" ");
             }
+            // Initialize the character to print
             char ch = 'A';
-            int breakpoint = (2*i+1)/2;
-            // we use a breakpoint which breaks at the middle value
-            // and starts the iteration by decrementing the characters
-            // (2*0+1)/2 = 0.5 nearly 1
-            // (2*1+1)/2 = 3/2 = 1.5 nearly after 2nd char the decrement starts
-            // (2*5+1)/2 = 11/2 = 5.5 ~ 6 so after 6th char decrement starts
-            for(int j =1 ; j<=2*i+1 ; j++){
+
+            // Calculate the breakpoint for character increment/decrement
+            // The breakpoint is i + 1
+            int breakpoint = i + 1;
+
+            // Loop through each character in the row
+            for (int j = 1; j <= 2 * i + 1; j++) {
+                // Print the character
                 System.out.print(ch);
-                if(j<=breakpoint){
+
+                // Increment the character if the current position is less than the breakpoint
+                // This creates the "ascending" pattern
+                if (j < breakpoint) {
                     ch++;
                 }
-                else{
+                // Decrement the character if the current position is greater than or equal to the breakpoint
+                // This creates the "descending" pattern
+                else {
                     ch--;
                 }
             }

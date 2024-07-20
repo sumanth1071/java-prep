@@ -10,7 +10,7 @@ public class pattern19 {
      * @param N The size of the pattern to print.
      */
     public static void pattern(int N) {
-        int spaces = 0; // Initial number of spaces in the middle is set to 0.
+        // int spaces = 0; // Initial number of spaces in the middle is set to 0.
 
         // Upper half of the pattern
         for (int i = 0; i < N; i++) {
@@ -20,7 +20,7 @@ public class pattern19 {
             }
             // Print spaces: Increasing number of spaces in the middle.
             // Initially, there are no spaces, but the number increases by 2 in each iteration.
-            for (int j = 0; j < spaces; j++) {
+            for (int j = 0; j < 2*i; j++) {
                 System.out.print("  ");
             }
             // Print right stars: Same as left stars, creating a symmetrical pattern.
@@ -32,18 +32,18 @@ public class pattern19 {
         }
         
         // Lower half of the pattern
-        for (int i = 0; i < N; i++) {
+        for (int i = 1; i <=N; i++) {
             // Print left stars: Increasing number of stars from 1 to N.
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("* ");
             }
             // Print spaces: Decreasing number of spaces in the middle.
             // The number of spaces decreases by 2 in each iteration, starting from the last number of spaces in the upper half.
-            for (int j = 0; j < spaces - 2; j++) {
+            for (int j = 0; j < 2*N-2*i; j++) {
                 System.out.print("  ");
             }
             // Print right stars: Same as left stars, maintaining symmetry.
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("* ");
             }
             spaces -= 2; // Decrease the number of spaces by 2 for the next row.
@@ -51,13 +51,16 @@ public class pattern19 {
         }
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt(); // Number of test cases to run.
+        System.out.println("Enter the number of test cases: ");
+        int t = sc.nextInt(); // Number of test cases
         for (int i = 0; i < t; i++) {
-            int n = sc.nextInt(); // Size of the pattern for each test case.
-            pattern(n); // Print the pattern for the current test case.
+            System.out.println("Enter N for test case " + (i + 1) + ": ");
+            int n = sc.nextInt(); // Read N for each test case
+            pattern(n); // Print the star pattern for the current test case
         }
-        sc.close(); // Close the scanner to prevent resource leaks.
+        sc.close(); // Close the scanner to prevent resource leak
+     // Close the scanner to prevent resource leaks.
     }
 }

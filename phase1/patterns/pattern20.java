@@ -9,35 +9,33 @@ public class pattern20 {
      */
     public static void Pattern(int N) {
         // Upper half of the pattern
-        for (int i = 0; i < N; i++) {
+        for (int i = 1; i <=N; i++) {
             // Print left stars: Increasing number of stars from 1 to N
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("* ");
             }
             // Print spaces: Decreasing number of spaces to form the diamond shape
-            int spaces = 2 * (N - i - 1);
-            for (int j = 0; j < spaces; j++) {
+            for (int j = 0; j < 2*N-2*i; j++) {
                 System.out.print("  ");
             }
             // Print right stars: Mirroring the left stars to complete the upper half
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("* ");
             }
             System.out.println(); // Move to the next line after completing one row
         }
         // Lower half of the pattern
-        for (int i = N - 2; i >= 0; i--) {
+        for (int i=1; i<N; i++) {
             // Print left stars: Decreasing number of stars from N-1 to 1
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <N-i; j++) {
                 System.out.print("* ");
             }
             // Print spaces: Increasing number of spaces to maintain the diamond shape
-            int spaces = 2 * (N - i - 1);
-            for (int j = 0; j < spaces; j++) {
+            for (int j = 0; j < 2*i; j++) {
                 System.out.print("  ");
             }
             // Print right stars: Mirroring the left stars to complete the lower half
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <N-i; j++) {
                 System.out.print("* ");
             }
             System.out.println(); // Move to the next line after completing one row
