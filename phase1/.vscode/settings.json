@@ -1,7 +1,4 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true,
-    "java.project.sourcePaths": [
-        "patterns",
-        "problems/ki"
-    ]
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.sourcePaths": ["patterns", "Collections"]
 }

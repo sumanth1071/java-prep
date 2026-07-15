@@ -27,7 +27,6 @@ public class pattern19 {
             for (int j = 0; j < N - i; j++) {
                 System.out.print("* ");
             }
-            spaces += 2; // Increase the number of spaces by 2 for the next row.
             System.out.println(); // Move to the next line after completing one row.
         }
         
@@ -46,7 +45,6 @@ public class pattern19 {
             for (int j = 0; j < i; j++) {
                 System.out.print("* ");
             }
-            spaces -= 2; // Decrease the number of spaces by 2 for the next row.
             System.out.println(); // Move to the next line after completing one row.
         }
     }
